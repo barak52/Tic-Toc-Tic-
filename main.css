@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(./wallpaperflare.coddsm_wallpaper.jpg);
+   
+}
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 70px;
+    letter-spacing: -5PX;
+   
+   text-transform: uppercase;
+    color: #b0bec5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+
+h1::before{
+    content: "Tic Toc Tic game";
+    left: 0%;
+    top: -10PX;
+    z-index: -1;
+    position: absolute;
+    text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(72, 72, 72);
+  color: transparent;
+   
+
+}
+main{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+   align-items: center  ;
+   gap: 30px;
+}
+
+.container{
+    
+    
+   margin-top: 200px;
+   
+      /* position: absolute; */
+        background-color: rgba(25, 25, 25, 0.3); /* Semi-transparent background */
+        backdrop-filter: blur(2px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 22%;
+    min-width: 22%;
+    
+}
+
+.game{
+    margin-top: 50px;
+    height: 40vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 39px;
+   
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #3a3a3a;
+    border: 1px solid #99f3f8dd;
+    font-size: 40px;
+    color: #00acc1;
+}
+
+#reset{
+    min-width: 200px;
+    min-height: 55px;
+    border-radius: 12px;
+    background-color: #0c1318;
+   
+    color: #FFFFFF;
+    font-size:20PX;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 4PX 5px 33px 6px rgba(137, 136, 136, 0.451);
+
+    
+}
+#new{
+    min-width: 200px;
+    min-height: 55px;
+    border-radius: 12px;
+    background-color: #0c1318;
+   margin-left: 100px;
+    color: #FFFFFF;
+    font-size:20PX;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 4PX 5px 33px 6px rgba(137, 136, 136, 0.451);
+    
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-top: 150PX;
+    margin-bottom: 20px;
+}
+
+.hide{
+    display: none;
+    position: relative;
+}
+
+
+
+@media (max-width:600px) {
+    h1{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 60px;
+        margin-bottom: 10%;
+        letter-spacing: -5PX;
+       text-transform: uppercase;
+        color: #b0bec5;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+    }
+    
+    h1::before{
+        content: "Tic Toc Tic game";
+        left: 0%;
+        top: -10PX;
+        z-index: -1;
+        position: absolute;
+        text-transform: uppercase;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(72, 72, 72);
+      color: transparent;
+       
+    
+    }
+    .box{
+        width: 75px;
+        height: 75px;
+        border-radius: 12px;
+        background-color: #3a3a3a;
+        border: 1px solid #99f3f8dd;
+        font-size: 40px;
+        color: #00acc1;
+
+    }
+    .game{
+        margin-top: 0px;
+        height: 40vmin;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       padding: 12px 0px;
+        background-color:transparent;
+        min-height: 60%;
+       
+    }
+    .container{
+    
+        margin-top: 150px;
+        min-height: 60%;
+             background-color: rgba(25, 25, 25, 0.3); /* Semi-transparent background */
+             backdrop-filter: blur(2px);
+             border: 1px solid rgba(255, 255, 255, 0.2);
+         width: 2%;
+         min-width: 56%;
+        padding-bottom: 69px;
+         
+     }
+     
+#reset{
+    min-width: 200px;
+    min-height: 55px;
+    border-radius: 12px;
+    background-color: #0c1318;
+   
+    color: #FFFFFF;
+    font-size:20PX;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 4PX 5px 33px 6px rgba(137, 136, 136, 0.451);
+
+    
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+ padding-top: 100px;
+    margin-bottom: 0px;
+}
+}
+
+@media (max-width:390px) {
+    h1{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 45px;
+        margin-bottom: 10%;
+        letter-spacing: -5PX;
+       text-transform: uppercase;
+        color: #b0bec5;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+    }
+    
+    h1::before{
+        content: "Tic Toc Tic game";
+        left: 0%;
+        top: -10PX;
+        z-index: -1;
+        position: absolute;
+        text-transform: uppercase;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(72, 72, 72);
+      color: transparent;
+       
+    
+    }
+    .box{
+        width: 55px;
+        height: 55px;
+        border-radius: 12px;
+        background-color: #3a3a3a;
+        border: 1px solid #99f3f8dd;
+        font-size: 40px;
+        color: #00acc1;
+
+    }
+    .game{
+        margin-top: 0px;
+        height: 40vmin;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       padding: 12px 0px;
+        background-color:transparent;
+        min-height: 60%;
+       
+    }
+    .container{
+    
+        margin-top: 150px;
+        min-height: 100%;
+             background-color: rgba(25, 25, 25, 0.3); /* Semi-transparent background */
+             backdrop-filter: blur(2px);
+             border: 1px solid rgba(255, 255, 255, 0.2);
+         width: 2%;
+         min-width: 70%;
+        padding-bottom: 79px;
+         
+     }
+     
+#reset{
+    min-width: 200px;
+    min-height: 55px;
+    border-radius: 12px;
+    background-color: #0c1318;
+   
+    color: #FFFFFF;
+    font-size:20PX;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 4PX 5px 33px 6px rgba(137, 136, 136, 0.451);
+
+    
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+ padding-top: 100px;
+    margin-bottom: 0px;
+}
+#new{
+    min-width: 200px;
+    min-height: 55px;
+    border-radius: 12px;
+    background-color: #0c1318;
+    margin-left: 60px;
+   
+    color: #FFFFFF;
+    font-size:20PX;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 4PX 5px 33px 6px rgba(137, 136, 136, 0.451);
+
+    
+}
+}
